@@ -13,4 +13,4 @@ https://MatthewGrisham.github.io/run-buddy/
 ## Contribution
 MAde with ❤️ by Matthew Grisham
 
-
+# Run-Buddy-Inc.
