@@ -1,20 +1,16 @@
-# Run-Buddy-Inc.
+# Run Buddy, Inc
 
 ## Purpose
-A website that offers fitness training services.
+A website that offers fitness training services. 
 
 ## Built With
-* Html
-* * CSS
+* HTML
+* CSS
 
 ## Website
-https://MatthewGrisham.github.io/run-buddy/
+https://lernantino.github.io/run-buddy/
 
 ## Contribution
-MAde with ❤️ by Matthew Grisham
+Made with ❤️ by [your name]
 
-<<<<<<< HEAD
-# Run-Buddy-Inc.
-=======
 ### ©️2019 Run Buddy, Inc 
->>>>>>> 06c2621608b4190b934c3ca48d4af78a1070a99b
