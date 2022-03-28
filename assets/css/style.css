@@ -13,11 +13,11 @@ body {
 /* HEADER / NAV BAR STYLES START */
 
 header {
-  flex-wrap: wrap;
-  justify-content: space-between;
-  display: flex;
   padding: 20px 35px;
   background-color: #39a6b2;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 header h1 {
@@ -56,11 +56,11 @@ header nav ul li a {
 
 /* FOOTER STYLES START */
 footer {
+  background: #fce138;
+  padding: 40px 35px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background: #fce138;
-  padding: 40px 35px;
   width: 100%;
 }
 
@@ -87,12 +87,12 @@ section {
 
 /* HERO STYLES START */
 .hero {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   background-image: url('../images/hero-bg.jpg');
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .hero-cta {
@@ -185,39 +185,32 @@ section {
 
 
 /* WHAT YOU DO STYLES START */
+.steps { 
+  background: #fce138;
+}
+
 .step {
   margin: 50px auto;
   padding-bottom: 50px;
   width: 80%;
   border-bottom: 1px solid #39a6b2;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
 
-.steps { 
-  background: #fce138;
-}
-
 .step h3 {
-  flex: 1 30%;
   color: #024e76;
   font-size: 46px;
+  flex: 1 30%;
 }
 
 .step-info {
   flex: 2 70%;
-}
-
-.step-text p {
-  color: #39a6b2;
-  font-size: 18px;
-}
-
-.step-text h4 {
-  font-size: 26px;
-  line-height: 1.5;
-  color: #024e76;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .step-img {
@@ -233,6 +226,17 @@ section {
   flex: 12;
 }
 
+.step-text p {
+  color: #39a6b2;
+  font-size: 18px;
+}
+
+.step-text h4 {
+  font-size: 26px;
+  line-height: 1.5;
+  color: #024e76;
+}
+
 /* WHAT YOU DO STYLES END */
 
 /* MEET THE TRAINERS START */
@@ -246,9 +250,9 @@ section {
 
 .trainer {
   margin: 20px;
+  flex: 1;
   background: #024e76;
   color: #fce138;
-  flex: 1;
 }
 
 .trainer img {
@@ -276,12 +280,6 @@ section {
 /* TRAINER STYLES END */
 
 /* REACH OUT STYLES START */
-
-.contact-info >* {
-  flex: 1;
-  margin: 15px;
-}
-
 .contact {
   background: #024e76;
 }
@@ -290,14 +288,19 @@ section {
   color: #fce138;
 }
 
-.contact-info iframe {
-height: 400px;
-}
-
 .contact-info {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.contact-info > * {
+  flex: 1;
+  margin: 15px;
+}
+
+.contact-info iframe {
+  height: 400px;
 }
 
 .contact-info div {
@@ -314,10 +317,6 @@ height: 400px;
   line-height: 1.5;
   font-size: 16px;
   font-style: normal;
-}
-
-.contact-info a {
-  color: #fce138;
 }
 
 .contact-form input, .contact-form textarea {
@@ -339,6 +338,10 @@ height: 400px;
   text-align: center;
   padding: 15px 0;
   font-size: 16px;
+}
+
+.contact-info a {
+  color: #fce138;
 }
 
 
